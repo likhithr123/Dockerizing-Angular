@@ -1,0 +1,31 @@
+<div class="container bg-light py-5">
+  <h1 class="display-5 fw-bold">Welcome To The ZeOmega Online Quiz</h1>
+  <p class="col-md-8 fs-4">This Test Contains 4 section, Each Section has 5 Questions</p>
+  <h4>Rules:</h4>
+  <ol>
+    <li>Correct question gives you 1points</li>
+    <li>Incorrect question leads you -0.5 points</li>
+    <li>You will have 1 minute for each question to answer</li>
+    <li>Refreshing the page will reset the quiz</li>
+  </ol>
+  <h1 style="font-family: cursive; text-align: center;">All The Best....!</h1>
+  <div class="name col-md-4 my-3">
+    <form [formGroup]="username" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label>Enter User Name</label>
+        <input #name type="text" formControlName="name" class="form-control"
+          [ngClass]="{'is-invalid':submitted && f['name'].errors}">
+        <div *ngIf="submitted && f['name'].errors" class="invalid-feedback">
+          <div *ngIf="f['name'].errors['required']">
+            User Name can not be empty
+          </div>
+        </div>
+      </div><br>
+      <div class="form-group">
+        <button class="btn btn-primary">StartQuiz</button>
+      </div>
+      <!-- <button [disabled]="username.invalid" class="btn btn-primary btn-lg"  (click)="startQuiz('/question')">StartQuiz</button> -->
+    </form>
+  </div>
+
+</div>

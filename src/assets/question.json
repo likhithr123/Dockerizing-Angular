@@ -1,0 +1,364 @@
+{
+    "Java": [
+        { "arrayName":"Java Quiz",
+            "questiontext": "1) Which of the following option leads to the portability and security of Java?",
+            "options": [
+                {
+                    "text": "a. Bytecode is executed by JVM",
+                    "correct": true
+                },
+                {
+                    "text": "b. The applet makes the Java code secure and portable"
+                },
+                {
+                    "text": "c. Use of exception handling"
+                },
+                {
+                    "text": "d. Dynamic binding between object"
+                }
+            ]
+        },
+        {
+            "questiontext": "2) Which of the following is not a Java features?",
+            "options": [
+                {
+                    "text": "a.Dynamic"
+                },
+                {
+                    "text": "b. Architecture Neutral"
+                },
+                {
+                    "text": "c. Use of pointers",
+                    "correct": true
+                },
+                {
+                    "text": "d. Object-oriented"
+                }
+            ]
+        },
+        {
+            "questiontext": "3) _____ is used to find and fix bugs in the Java programs.",
+            "options": [
+                {
+                    "text": "a.JVM"
+                },
+                {
+                    "text": "b. JRE"
+                },
+                {
+                    "text": "c. JDK"
+                },
+                {
+                    "text": "d. JDB",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questiontext": "4) Which of the following is a valid declaration of a char?",
+            "options": [
+                {
+                    "text": "a. char ch = '/utea';",
+                    "correct": true
+                },
+                {
+                    "text": "b. char ca = 'tea';"
+                },
+                {
+                    "text": "c. char cr = \u0223;"
+                },
+                {
+                    "text": "d. char cc = 'itea';"
+                }
+            ]
+        },
+        {
+            "questiontext": "5) What is the return type of the hashCode() method in the Object class",
+            "options": [
+                {
+                    "text": "a. Object"
+                },
+                {
+                    "text": "b. int",
+                    "correct": true
+                },
+                {
+                    "text": "c. long"
+                },
+                {
+                    "text": "d. void"
+                }
+            ]
+        }
+    ],
+    "Html": [
+        { "arrayName":"HTML Quiz",
+            "questiontext": "1) HTML stands for -",
+            "options": [
+                {
+                    "text": "a. HighText Machine Language"
+                },
+                {
+                    "text": "b. HyperText and links Markup Language"
+                },
+                {
+                    "text": "c. HyperText Markup Language",
+                    "correct": true
+                },
+                {
+                    "text": "d. None of these"
+                }
+            ]
+        },
+        {
+            "questiontext": "2) The correct sequence of HTML tags for starting a webpage is -",
+            "options": [
+                {
+                    "text": "a.Head, Title, HTML, body"
+                },
+                {
+                    "text": "b. HTML, Body, Title, Head"
+                },
+                {
+                    "text": "c. HTML, Head, Title, Body"
+                },
+                {
+                    "text": "d. HTML, Head, Title, Body",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questiontext": "3)Which of the following element is responsible for making the text bold in HTML?",
+            "options": [
+                {
+                    "text": "a. <pre>"
+                },
+                {
+                    "text": "b. <a>",
+                    "correct": true
+                },
+                {
+                    "text": "c. <b>"
+                },
+                {
+                    "text": "d. <br>"
+                }
+            ]
+        },
+        {
+            "questiontext": "4) Which of the following tag is used for inserting the largest heading in HTML?",
+            "options": [
+                {
+                    "text": "a. <h3>"
+                },
+                {
+                    "text": "b. <h1>",
+                    "correct": true
+                },
+                {
+                    "text": "c. <h5>"
+                },
+                {
+                    "text": "d. <h6>"
+                }
+            ]
+        },
+        {
+            "questiontext": "5)Which of the following tag is used to insert a line-break in HTML?",
+            "options": [
+                {
+                    "text": "a. <br>",
+                    "correct": true
+                },
+                {
+                    "text": "b. <a>"
+                },
+                {
+                    "text": "c. <pre>"
+                },
+                {
+                    "text": "d. <br>"
+                }
+            ]
+        }
+    ],
+    "JavaScript": [
+        {   "arrayName":"JavaScript Quiz",
+            "questiontext": "1) Which type of JavaScript language is ___",
+            "options": [
+                {
+                    "text": "a. Object-Oriented"
+                },
+                {
+                    "text": "b. Object-Based",
+                    "correct": true
+                },
+                {
+                    "text": "c. Assembly-language"
+                },
+                {
+                    "text": "d. High-level"
+                }
+            ]
+        },
+        {
+            "questiontext": "2) Which one of the following also known as Conditional Expression:",
+            "options": [
+                {
+                    "text": "a. Alternative to if-else"
+                },
+                {
+                    "text": "b. Switch statement"
+                },
+                {
+                    "text": "c. If-then-else statement"
+                },
+                {
+                    "text": "d. immediate if",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questiontext": "3) In JavaScript, what is a block of statement?",
+            "options": [
+                {
+                    "text": "a. Conditional block"
+                },
+                {
+                    "text": "b. block that combines a number of statements into a single compound statement",
+                    "correct": true
+                },
+                {
+                    "text": "c. both conditional block and a single statement"
+                },
+                {
+                    "text": "d. block that contains a single statement"
+                }
+            ]
+        },
+        {
+            "questiontext": "4)  When interpreter encounters an empty statements, what it will do:",
+            "options": [
+                {
+                    "text": "a. Shows a warning"
+                },
+                {
+                    "text": "b. Prompts to complete the statement"
+                },
+                {
+                    "text": "c. Ignores the statements"
+                },
+                {
+                    "text": "d. char cc = 'itea';",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questiontext": "5) The 'function' and 'var' are known as:",
+            "options": [
+                {
+                    "text": "a. Keywords"
+                },
+                {
+                    "text": "b. Data types"
+                },
+                {
+                    "text": "c. Declaration statements",
+                    "correct": true
+                },
+                {
+                    "text": "d. Prototypes"
+                }
+            ]
+        }
+    ],
+    "Angular": [
+        {   "arrayName":"Angular Quiz",
+            "questiontext": "1) Which of the following statement is correct for AngularJS?",
+            "options": [
+                {
+                    "text": "a. AngularJS is an HTML framework"
+                },
+                {
+                    "text": "b. AngularJS is a Java framework"
+                },
+                {
+                    "text": "c. AngularJS is a JavaScript framework",
+                    "correct": true
+                },
+                {
+                    "text": "d. AngularJS is a SQL framework"
+                }
+            ]
+        },
+        {
+            "questiontext": "2) On which of the Architectural pattern AngularJS is based?",
+            "options": [
+                {
+                    "text": "a.Observer Pattern"
+                },
+                {
+                    "text": "b. Decorator pattern"
+                },
+                {
+                    "text": "c. MVC Architecture pattern"
+                },
+                {
+                    "text": "d. MVVM Architectural pattern",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questiontext": "3)  AngularJS is perfect for?",
+            "options": [
+                {
+                    "text": "a. SPAs",
+                    "correct": true
+                },
+                {
+                    "text": "b. MPAs"
+                },
+                {
+                    "text": "c. DPAs"
+                },
+                {
+                    "text": "d. CPAs"
+                }
+            ]
+        },
+        {
+            "questiontext": "4) Which of the following is the correct syntax for writing AngularJS expressions?",
+            "options": [
+                {
+                    "text": "a. (expression)"
+                },
+                {
+                    "text": "b. {{expression}}",
+                    "correct": true
+                },
+                {
+                    "text": "c. {{{expression}}}"
+                },
+                {
+                    "text": "d. [expression]"
+                }
+            ]
+        },
+        {
+            "questiontext": "5) Do AngularJS provide reusable components?",
+            "options": [
+                {
+                    "text": "a. Yes"
+                },
+                {
+                    "text": "b. No",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+}

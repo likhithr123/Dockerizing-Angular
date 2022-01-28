@@ -1,0 +1,54 @@
+										------------Online test Application------------------
+										
+Tools used:
+	Nodejs
+	VS Code
+	Angular
+	Github
+	
+	
+As per the requirement,I had developed the code for online test Assessment
+   I have created the angular application and components such as Header,Welcome,Questions, and a json file to store the questions of the quiz.
+   In that i have created 4 arrays namely,
+	1)Java
+	2)Javascript
+	3)Html
+	4)Angular
+    And I have created the service to fetch the questions- question.service.ts
+    And I have created directive to enable and disable the ngContainer.
+	
+	
+The first page displays the Welcome page ,
+	In that I have mentioned the rules of the quiz and one user form which has the validation.
+	Once the user gives the username,it"ll take to the quiz with a alert message as "Welcome to the quiz -username".
+	
+In the question page it displays the 4 cards which are mentioned above.
+	Firstly it'll show 4 tests in cards and the user has to select his required subject in the card. It'll directly take to the quiz with a pop up message.
+	It also shows the points obtained , time remaining and the current question number.
+	
+Each correct answer carries 1 point , and each wrong answer carries -0.5 point.
+If the user enters the correct answer it'll display in green color on that option.
+If the user enters the wrong answer,it'll display in red color on that option.
+Each question has 1 minute to attend it, if the user does'nt answer the question within 1 minute it'll automatically go to the next question.
+
+I have given 3 buttons- next question,previous question,refresh(it'll refresh the quiz and can attend the quiz from first)
+
+Once all the questions are completed,it'll show the result of the quiz with a "Congradulations" message.
+
+
+NOTE:
+	We can build using multiple components for each array but I have built in 1 component(question.component) because of space efficiency.
+
+
+
+Github Link:
+
+
+
+
+Thank you,
+Basavaraj
+
+	
+	
+	
